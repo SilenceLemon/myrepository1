@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>HelloWorldController</servlet-name>
+  	<display-name>HelloWorldController</display-name>
+  	<description></description>
+  	<servlet-class>com.mvn.controller.HelloWorldController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ddd</servlet-name>
+  	<display-name>ddd</display-name>
+  	<description></description>
+  	<servlet-class>com.mvn.controller.ddd</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HelloWorld</servlet-name>
+  	<display-name>HelloWorld</display-name>
+  	<description></description>
+  	<servlet-class>com.mvn.controller.HelloWorld</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HelloController</servlet-name>
+  	<display-name>HelloController</display-name>
+  	<description></description>
+  	<servlet-class>com.mvn.controller.HelloController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>HelloWorldController</servlet-name>
+  	<url-pattern>/HelloWorldController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ddd</servlet-name>
+  	<url-pattern>/ddd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HelloWorld</servlet-name>
+  	<url-pattern>/HelloWorld</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HelloController</servlet-name>
+  	<url-pattern>/HelloController</url-pattern>
+  </servlet-mapping>
+</web-app>
